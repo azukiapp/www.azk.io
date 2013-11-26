@@ -12,8 +12,8 @@
 
 .fb-like 
 {
-	margin-left: 5px;
-	float:left;
+  margin-left: 5px;
+  float:left;
 }
 
 #video 
@@ -27,7 +27,11 @@
   box-shadow: 0 2px 6px rgba(0,0,0,.39); /* drop shadow */
   img:hover
   {
-	 opacity: 0.5;
-	 cursor: pointer;
+   opacity: 0.5;
+   cursor: pointer;
   }
+}
+
+h2.headline {
+  font-size: 32px;
 }

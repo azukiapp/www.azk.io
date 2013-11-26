@@ -7,12 +7,12 @@
 
 # Set your project goal here - dollar amount
 # NOTE: if you manually want to adjust your progress to test the site, head over to the Order model (app/models/order.rb)
-project_goal: 100000
+project_goal: 1
 
 # If you want to edit the FAQ, head over to app/views/preorder/homepage/_faqs.html.erb
 
 # This'll be both the page title (<title></title>) and the name in the header
-product_name: "Selfstarter"
+product_name: "azk"
 
 # This will be used in sentences like Hooray You've just reserved product_description
 product_description: "a set of widgets"
@@ -22,7 +22,7 @@ product_description: "a set of widgets"
 product_image_path: "my-product-image.png"
 
 # The message on the preorder page, Lockitron's is ""
-value_proposition: "Roll your own crowdfunding"
+value_proposition: "uma caixa de ferramentas eficiente para montagem de seus ambientes de desenvolvimento a produção"
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
 # Replace /embed/ in your video url path with /v/ for video playback to work.
@@ -74,12 +74,12 @@ progress_text: "Implemented"
 # Call to action section
 
 # On Lockitron, it's "First Batch Ships in March 2013"
-ships: "Ships...sometime"
+ships: "Veja funcionando"
 
 # On Lockitron, it's "Reserve Now"
 call_to_action: "Reserve Now"
 # On Lockitron, this is "Only $149 for a limited time"
-price_human: "It costs money!"
+price_human: ""
 
 # The paragraph below the price. You'd probably say something about how you're not going to charge them before it ships (so it's less risky).
 dont_give_them_a_reason_to_say_no: "You'll get this exact site. All you'll need to get started is a great product."
@@ -90,6 +90,8 @@ facebook_app_id: "1234567890"
 # Maybe mention something about your product vision -- e.g. "to replace keys with my phone"
 tweet_text: "to crowdfund"
 
+copyright: "© 2009-2012 Apigy Inc. All rights reserved. Patents pending."
+
 # Google Analytics
 google_id: "1234567890"
 
@@ -97,3 +99,34 @@ google_id: "1234567890"
 # They're in app/assets/images/#{pointer_number}-background.png
 # So, the first key point, it's at app/assets/images/1-background.png
 # Alternatively, change it up in app/assets/stylesheets/homepage/key_points.css.scss
+
+other_points:
+  -
+    title: "Muito fácil de configurar"
+    text: "Use receitas pré configuradas e customize facilmente ao seu gosto a configuração de seus ambientes de desenvolvimento."
+  -
+    title: "Agnóstico de tecnologia na plataforma linux"
+    text: "Uma ferramenta livre para ser usada com qualquer tecnologia, linguagem e arquitetura que roda sobre linux."
+  -
+    title: "Atende tanto projetos pessoais como projetos mais elaborados"
+    text: "Feito tanto para facilitar a vida de quem desenvolve uma pequena aplicação e precisa de agilidade como para desenvolvedores que estão muntando um software com uma arquitetura mais complexa."
+  -
+    title: "Segurança com isolamento dos ambientes"
+    text: "Cada aplicação e serviço que usa o azk roda em um container isolado o que agrega segurança desde o momento de sua criação."
+
+social_proof:
+  -
+    quote: "Lorem Ipsum at sit amet lorem ipsum at sit lorem ipsum!"
+    name: "Lorem Ipsum"
+    link: "http://lipsum.com"
+    work: "CEO, Lipsum Inc"
+  -
+    quote: "Phasellus erat nisl, sagittis eget porttitor at, dictum vel felis."
+    name: "Sagittis Eget"
+    link: "http://lipsum.com"
+    work: "CEO, Phasellus"
+  -
+    quote: "Quisque elementum eros sed neque tristique, vel mollis metus aliquam."
+    name: "Mollis Metus"
+    link: "http://lipsum.com"
+    work: "CEO, Neque"

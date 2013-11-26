@@ -1,0 +1,17 @@
+<div class="big_wrapper">
+  <div class="wrapper" id="social_proof">
+    <div class="social_proof">
+      <h4>O que estão dizendo</h4>
+      <ul>
+        <% Array.wrap(Settings.social_proof).each do |proof| %>
+          <li>
+            <blockquote>
+              <p>“<%= proof["quote"] %>”</p>
+              <p class="author">— <a href="<%= proof["link"] %>"><%= proof["name"] %></a>, <%= proof["work"] %></p>
+            </blockquote>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

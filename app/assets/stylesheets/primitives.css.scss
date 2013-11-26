@@ -102,15 +102,12 @@ details summary::-webkit-details-marker { display:none; content: ""; }
 
 
 h1 {
+	width: 110px;
   margin: 0 auto;
-  margin-left: 380px;
-  width: 174px;
   font-family: Helvetica;
   font-size: 42px;
   font-weight: bold;
-  color: $h1_color;
   letter-spacing: -.05em;
-  float: left;
   a
   {
     color: $h1_color;
